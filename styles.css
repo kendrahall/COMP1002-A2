@@ -1,0 +1,113 @@
+/* Basic fonts and page background color */
+body{
+	font: 125%/1.5 "Lucida Grande", Verdana, sans-serif;
+	color: #333;
+	margin: 0;
+	padding: 0;
+	background-color: #76B3E8;
+}
+
+/* Page header */
+#header{
+	width: 900px;
+	margin: 20px auto 0 auto;
+	height: 100px;
+}
+#header h1{
+	float: left;
+	margin: 0;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 70px;
+	height: 70px;
+	background-image: url('../images/logo.png');
+}
+#header h2{
+	text-align: right;
+	font-weight: normal;
+	margin: 0;
+	padding-top: 0.5em;
+	color: #FFF;
+}
+
+/* Site navigation */
+#nav{
+	width: 900px;
+	margin: 0 auto;
+}
+#nav ul{
+	height: 50px;
+	list-style-type: none;
+	padding: 0 30px;
+	margin: 0;
+}
+#nav li{
+	height: 50px;
+	padding: 0;
+	margin: 0 5px 0 0;
+	float: left;
+}
+#nav li a{
+	height: 20px;
+	display: block;
+	padding: 10px 15px 20px 15px;
+	text-decoration: none;
+	background-color: #CCC;
+}
+#nav li a:link{
+	color: #333;
+}
+#nav li a:visited{
+	color: #333;
+}
+#nav li a:hover{
+	color: #000;
+	background-color: #FFF;
+}
+#nav li a:active{
+	background-color: #FFF;
+	color: #F30;
+}
+#page1 li:nth-of-type(1) a,
+#page2 li:nth-of-type(2) a,
+#page3 li:nth-of-type(3) a,
+#page4 li:nth-of-type(4) a,
+#page5 li:nth-of-type(5) a
+{
+	background-color: #FFF;
+}
+
+/* Main page body */
+#content{
+	width: 900px;
+	margin: 0 auto;
+	padding: 1em 0 3em 0;
+	background-color:#FFF;
+}
+#content h3{
+	margin: 0.5em 30px 0 30px;
+	font-size: 1.1em;
+}
+#content p{
+	margin: 1em 30px 0 30px;
+}
+#content p img{
+	float: left;
+	margin-right: 20px;
+}
+/* Add link styles for main part of page here */
+
+
+/* Page footer */
+#footer{
+	width: 900px;
+	margin: 0 auto 30px auto;
+}
+#footer p{
+	margin: 0;
+	font-size: 0.8em;
+	padding-top: 20px;
+	color: #FFF;
+	text-align: right;
+}
